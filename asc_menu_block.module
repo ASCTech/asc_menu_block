@@ -1,0 +1,25 @@
+<?php
+/**
+ * @file
+ * asc_front.menu_block.inc
+ */
+
+/**
+ * Implements hook_menu_block_blocks().
+ */
+function asc_menu_block_menu_block_blocks() {
+  // The array key is the block delta used by menu block.
+  return array(
+    'ASC Main Block-1' => array(
+      'menu_name'   => 'main-menu',
+      'parent_mlid' => 0,
+      'title_link'  => 0,
+      'admin_title' => 'Sidebar Main Menu',
+      'level'       => 2,
+      'follow'      => 0,
+      'depth'       => 0,
+      'expanded'    => 0,
+      'sort'        => 0,
+    ),
+  );
+}

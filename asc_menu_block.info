@@ -1,0 +1,8 @@
+name = ASC Menu Block
+description = ASC Sidebar menu block
+core = 7.x
+package = ASC
+php = 5.2.4
+version = 7.x-1.0
+project = asc_menu_block
+dependencies[] = menu_block
